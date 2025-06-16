@@ -5,7 +5,7 @@ export const buildFetchAuthHeader = (username: string, password: string): string
     return 'Basic ' + base64EncodeUtf8(username)
   } else if (password.length > 0) {
     // If no username was given, we assume that password is an api key
-    return 'ApiKey ' + password
+    return password
   }
 
   return ''
