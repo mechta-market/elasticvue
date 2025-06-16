@@ -4,6 +4,7 @@
   "version": "1.7.0",
   "scripts": {
     "dev": "vite",
+    "preview": "vite preview",
     "build": "vite build",
     "tsc": "tsc --noEmit && vue-tsc",
     "lint": "eslint src tests",
