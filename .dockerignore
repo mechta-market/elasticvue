@@ -22,7 +22,6 @@ playwright/.auth
 tests/*.png
 
 artifacts/*
-dist
 node_modules
 browser_extension/*/*
 !browser_extension/chrome/background.js
